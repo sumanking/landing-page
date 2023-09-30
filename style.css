@@ -1,0 +1,603 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #195e75;
+    position: fixed;
+    z-index:2;
+}
+
+  .item {
+    width: 600px;
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   color: white;
+
+  }
+  .land{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+  }
+  .item5{
+    width:100px;
+    height: 60px;
+    background-color: rgb(255, 80, 147);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .item6{
+    height:60px;
+    width:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EA1179;
+    font-weight: 900;
+  }
+  .item1:hover{
+  text-decoration: underline solid 2px rgb(255, 80, 147);
+  font-size: larger;
+  color: rgb(75, 194, 207);
+  }
+  .item2:hover{
+  text-decoration: underline solid 2px rgb(255, 80, 147);
+  font-size: larger;
+  color: rgb(75, 194, 207);
+  }
+  .item3:hover{
+  text-decoration: underline solid 2px rgb(255, 80, 147);
+  font-size: larger;
+  color: rgb(75, 194, 207);
+  }
+  .item4:hover{
+  text-decoration: underline solid 2px rgb(255, 80, 147);
+  font-size: larger;
+  color: rgb(75, 194, 207);
+}
+.item6:hover{
+background-color: rgb(0, 200, 255);
+font-weight: bolder;
+font-size: larger;
+}          
+.item5:hover{
+background-color: rgb(212, 60, 174);
+color: rgb(235, 243, 81);
+font-size: larger;
+font-weight: bolder;
+}
+
+    .hero-section{
+        height:650px;
+        background-image: url(master3.jpeg);
+        background-size: cover;
+        filter: blur(3px);
+    }          
+    .hero1{
+      height: 7%;
+      display: flex;
+      position: absolute;
+      left: 15%;
+      bottom: 75%;
+      color: #FF0060;
+      font-size:180%;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      letter-spacing: 4px;
+    }
+    .hero2{
+      height: 7%;
+      display: flex;
+      position: absolute;
+      left: 37%;
+      bottom: 73.5%;
+      font-size:120%;
+      background-color: #FAF0E4;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      letter-spacing: 4px;
+      color:rgb(0, 0, 0);
+      border:2px solid black;
+    }
+    .hero3{
+      height: 7%;
+      display: flex;
+      position: absolute;
+      left: 72%;
+      bottom: 75.3%;
+      font-size:350%;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      letter-spacing: 4px;
+      color:#FF0060;
+    }
+    .hero4{
+      height: 7%;
+      width:65%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      position: absolute;
+      left: 18%;
+      bottom: 60%;
+      font-size:150%;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      letter-spacing: 4px;
+      color: #EA1179;
+      background-color: rgb(196, 218, 199);
+      border-radius: 30px;
+      border:2px solid black;
+    }
+    .hero4:hover{
+      background-color: #40d053;
+      color: white;
+      transform: rotate(1deg);
+      box-shadow: 10px 20px 30px rgb(255, 254, 254);
+    }
+    .hero5{
+      height:10%;
+      width:15%;
+      background-color: #EA1179;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      left: 33%;
+      bottom: 30%;
+      font-size:100%;
+      font-family:Arial, Helvetica, sans-serif;
+      color:white;
+      border-radius: 50px;
+      border:2px solid white
+    }
+    .hero6{
+      height:10%;
+      width:15%;
+      background-color: #EA1179;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      left: 50%;
+      bottom: 30%;
+      font-size:100%;
+      font-family:Arial, Helvetica, sans-serif;
+      color:white;
+      border-radius: 50px;
+      border:2px solid white;
+    }
+    .hero5:hover{
+      transform: rotate(-4deg);
+      box-shadow: 10px 20px 30px rgb(36, 18, 93);
+    }
+    .hero5>h2:hover{
+      //color:blue;
+    }
+    .hero6:hover{
+      transform: rotate(4deg);
+      box-shadow: 10px 20px 30px rgb(36, 18, 93);
+    }
+    .hero6>h2:hover{
+      //color:blue;
+    }
+    .business{
+      height: 350px;
+      
+    }
+    .gradient-background {
+      background: linear-gradient(300deg, rgb(255, 80, 147), #37dbd2, #EA1179);
+      background-size: 180% 180%;
+      animation: gradient-animation 18s ease infinite;
+    }
+    
+    @keyframes gradient-animation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    .bus1{
+      height:80px;
+      width: 80px;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      color: white;
+      left: 10%;
+      bottom: -5%;
+      font-size: 40px;
+      border: 2px solid rgb(255, 255, 255);
+      border-radius: 50%;
+    }
+    .business>p{
+      font-size: 22px;
+      color: white;
+      display: flex;
+      position: absolute;
+      left: 17%;
+      bottom: -1.7%;
+      font-weight: 800;
+    }
+    .bus2{
+      height:80px;
+      width: 80px;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      color: white;
+      left: 38%;
+      bottom: -5%;
+      font-size: 40px;
+      border: 2px solid white;
+      border-radius: 50%;
+    }
+    .business>h2{
+      font-size: 22px;
+      color: white;
+      display: flex;
+      position: absolute;
+      left: 45%;
+      bottom: -1.7%;
+      font-weight: 800;
+    }
+    .bus3{
+      height:80px;
+      width: 80px;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      color: white;
+      left: 68%;
+      bottom: -5%;
+      font-size: 40px;
+      border: 2px solid white;
+      border-radius: 50%;
+    }
+    .business>h3{
+      font-size: 22px;
+      color: white;
+      display: flex;
+      position: absolute;
+      left: 75%;
+      bottom: -1.7%;
+      font-weight: 800;
+    }
+    .lorem1{
+      height: 200px;
+      width:250px;
+      display:flex;
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      position: absolute;
+      color: white;
+      left: 12%;
+      top: 107%;
+      color: black;
+    }
+    .lorem2{
+      height: 200px;
+      width:250px;
+      display:flex;
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      position: absolute;
+      color: white;
+      left: 43%;
+      top: 100%;
+      color: black;
+      align-items: center;
+      text-align: center;
+    }
+    .lorem3{
+      height: 200px;
+      width:250px;
+      display:flex;
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      position: absolute;
+      color: white;
+      left: 73%;
+      top: 103%;
+      color: black;
+      align-items: center;
+      text-align: center;
+    }
+    .about{
+      height: 600px;
+      width: 100%;
+      background-color: #FF78C4;
+      display: flex;
+      position: absolute;
+      text-align: center;
+      justify-content: center;
+
+    }
+    .div1{
+      font-size: 30px;
+      height: 100px;
+      width: 400px;
+      display: flex;
+      position: absolute;
+      align-items: ;
+      text-align: center;
+      justify-content: center;
+      color: #FAF0E4;
+      background-color: #4d61e0;
+      border: 2px solid white;
+      border-radius: 60px;
+      
+    }
+    .div1:hover{
+    transform: rotate(3deg);
+    box-shadow: 10px 20px 30px white;
+    border-color: black;
+    }
+    .div1>h1:hover{
+      font-size: 70px;
+      color: #28be2f;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      flex-direction: row;
+      transform: rotate(-3deg);
+    }
+    .div2{
+      font-size: 30px;
+      width: 60%;
+      display: flex;
+      align-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      position: absolute ;
+      top:25%;
+      left:10%;
+      color: black;
+      
+    }
+    .div2>h4{
+      color: #FAF0E4;
+
+    }
+    .div3{
+      display: flex;
+      position: absolute;
+      top:120px;
+      left: 900px;
+      align-items: flex-end;
+      flex-direction: column;
+      background-image: url(think-removebg-preview.png);
+      height: 350px;
+      width: 600px;
+      position: absolute;
+      background-size: cover;
+    }
+    .div3:hover{
+      transform: rotate(3deg);
+      box-shadow: 10px 20px 30px rgb(32, 26, 26);
+      background-color: #FAF0E4;
+    }
+    .div4{
+      height: 60px;
+      width: 140px;
+      background-color: greenyellow;
+      display: flex;
+      position: absolute;
+      align-items: center;
+      justify-content: center;
+      font-size: larger;
+      top:78%;
+      border-radius: 40px;
+      border: 2px solid black;
+    }
+    .div4:hover{
+      background-color: #5de3da;
+      color: rgb(19, 35, 208);
+      transform: rotate(3deg);
+      box-shadow: 10px 20px 30px rgb(32, 26, 26);
+      border: 2px solid black;      
+    }
+    .services{
+      height: 600px;
+      background-color: #37cd4d;
+    }
+    .serv{
+      height: 400px;
+      background-color: #37dbd2;
+     
+      
+    }
+    .serv1{
+      display: flex;
+      height: 290px;
+      width: 100%;
+      
+    }
+    .serv>h1{
+      font-size: 30px;
+      margin-left: px;
+    }
+    .serv>h3{
+      font-size: 40px;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(0, 0, 0);
+      
+    }
+    .userex{
+      height: 240px;
+      width:300px;
+      background-color: #3ebf45;
+      margin-left: 30px;
+      margin-top: 20px;
+      background-image: url(userex.jpg);
+      background-size: cover;
+      
+    }
+    .creative{
+      height: 240px;
+      width:300px;
+      background-color: #3ebf45;
+      margin-left: 280px;
+      margin-top: 20px;
+      background-image: url(creative.jpg);
+      background-size: cover;
+    }
+    .infra{
+      height: 240px;
+      width:300px;
+      background-color: #3ebf45;
+      margin-left: 250px;
+      margin-top: 20px;
+      background-image: url(infra1.png);
+      background-size: cover;
+    }
+    .write{
+      height: 40px;
+      width: 100%;
+      
+      margin-top: -20px;
+      padding: 0px;
+      display: flex;
+
+    }
+    .write>h1{
+      margin-left: 60px;
+      color: black;
+      font-size: 30px;
+    }
+    .write>h2{
+      margin-left: 400px;
+      color: black;
+      font-size: 30px;
+    }
+    .write>h3{
+      margin-left: 360px;
+      color: black;
+      font-size: 30px;
+    }
+    .contact{
+      height:200px;
+      background-color: #2d3e4f;
+    }
+    .contact>h4{
+      display: flex;
+      position: absolute;
+      right:10%;
+    }
+    .contact>h2{
+      display: flex;
+      font-size: 40px;
+      align-items: center;
+      justify-content: center;
+      color: WHITE;
+    }
+    .contact>.phone>h3{
+      color: WHITE;
+      
+
+    }
+    .contact>.phone>h3>a{
+      text-decoration: none;
+      color: wheat;
+    }
+    .phone{
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      left:6%;
+      
+    }
+    .consult{
+      height: 60px;
+      width: 200px;
+      display: flex;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      position:absolute;
+      margin-top: 30px;
+      margin-left:43%;
+      background-color: #EC53B0;
+      
+      border-radius: 30px;
+      color: azure;
+      font-size: 20px;
+      border: 2px solid rgb(206, 186, 186);
+    }
+    .consult:hover{
+     background-color: #4d61e0;
+     transform: rotate(3deg);
+     box-shadow: 10px 20px 30px white;
+     color: rgb(99, 210, 61);
+    }
+    .follow{
+      display: flex;
+      position: absolute;
+      left:76%;
+      font-size: 25px;
+      color: beige;
+    }
+    .follow>h4{
+      size: 80px;
+
+    }
+    .logo{
+      height: 50px;
+      width:350px;
+      display: flex;
+      align-items: center;
+      font-size: 35px;
+      color:aliceblue;
+      margin-left: 70%;
+      text-decoration: none;
+      margin-top: 35px;
+    }
+    .contact>.logo>.facebook>a{
+      color: rgb(207, 220, 222);
+      text-decoration: none;
+    }
+    .contact>.logo>.instagram>a{
+      color: rgb(207, 220, 222);
+      text-decoration: none;
+      padding: 13px;
+    }
+    .contact>.logo>.youtube>a{
+      color: rgb(207, 220, 222);
+      text-decoration: none;
+      padding: 5px;
+    }
+    .contact>.logo>.tweeter>a{
+      color: rgb(207, 220, 222);
+      text-decoration: none;
+      padding: 9px;
+    }
+    .contact>.logo>.linkdin>a{
+      color: rgb(207, 220, 222);
+      text-decoration: none;
+      padding: 9px;
+    }
+    .contact>.logo>.whatsapp>a{
+      color: rgb(207, 220, 222);
+      text-decoration: none;
+      padding: 9px;
+    }
+
+
